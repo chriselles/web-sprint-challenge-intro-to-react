@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a JavaScript library for building user interfaces. React is a preferred toolbox for building Web Applications offering faster response times. React is focused on supporting the delivery of dynamic content.  React possesses its own virtual DOM that supports performance and popularity and utility. Components are used to help create a more organised & manageable environment that is easier to debug. 
+
 1. Describe component state.
+
+Component state is an object managed within the component. States are the most common and most important way to handle data across applications. States can help store information to be used later. This helps with using stored information anywhere within the component, or passed as a prop. 
 
 1. Describe props.
 
+Props are sets of data passed to components. The purpose of props is similar to states(storage of information). But unlike states you cannot directly manipulate props. Props are used to pass data to other components that need it. Such as if you have an API call returning information that requires displaying in the application.  With props you can share data across all components requiring it. This avoids the need to re-declare data on another component. 
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+Side effects are functions called every time the applications render and/or re-renders. If there is any change to any state on any component the side effect fires as this change compels the app to re-render.  You can stop this from firing on each render by specifying states that can trigger it. If the data inside the side effect causes a change in a state it can result in an infinite loop crashing the application. Planning a side effect functio is essential to avoid infinite loops. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
